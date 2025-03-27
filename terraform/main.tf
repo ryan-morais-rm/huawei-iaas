@@ -9,7 +9,7 @@ terraform {
 }
 
 provider "huaweicloud" {
-  region     = "sa-brazil-1"
-  access_key = "VY6SA9JMX5ORXS5XQOLZ"
-  secret_key = "QTLq71k4jlzTR37Lo3cO0RypEkGOtI1YNOE0jfSH"
+  region     = "-"
+  access_key = "-"
+  secret_key = "-"
 }
