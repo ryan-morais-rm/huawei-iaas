@@ -16,4 +16,5 @@ Para iniciar a criação da infraestrutura, siga os passos abaixo:
 2. Navegue até o diretório do Ansible
 3. Edite o arquivo de inventário para refletir os hosts provisionados
 4. Execute o playbook principal para configurar os servidores
+5. Teste
 
