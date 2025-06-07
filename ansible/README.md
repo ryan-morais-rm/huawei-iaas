@@ -19,11 +19,11 @@ ansible-project/
 │   └── database/               # Função para servidores de banco de dados
 │
 ├── playbooks/                  # Playbooks Ansible
-│   ├── principal.yml                # Playbook principal que inclui outros
+│   ├── principal.yml           # Playbook principal que inclui outros
 │   ├── webservers.yml          # Playbook específico para servidores web
 │   └── dbservers.yml           # Playbook específico para servidores DB
 │
 ├── ansible.cfg                 # Arquivo de configuração do Ansible
 │
-└── README.md                   # Documentação do repositório
+└── README.md                   # Documentação do Ansible
 

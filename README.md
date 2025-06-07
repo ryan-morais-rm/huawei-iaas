@@ -18,3 +18,15 @@ Para iniciar a criação da infraestrutura, siga os passos abaixo:
 4. Execute o playbook principal para configurar os servidores
 5. Teste
 
+### 2. Explicação da infra
+
+Esse projeto vai conter:
+
+1. Um banco de dados MySQL 
+2. Uma instância Linux com CentOS 7.6
+3. Aplicação personalizada
+
+### 3. Serviços e Configurações do Ansible
+
+1. O Ansible vai configurar os seguintes pontos:
+   Usuários, grupos, ssh, docker, dns e sudo
