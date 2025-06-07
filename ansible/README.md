@@ -14,15 +14,6 @@ ansible-project/
 │   ├── staging                 # Inventário para o ambiente de staging
 │   └── hosts.ini               # Arquivo principal de hosts (pode ser compartilhado)
 │
-├── group_vars/                 # Variáveis específicas para grupos de hosts
-│   ├── all.yml                 # Variáveis comuns a todos os hosts
-│   ├── webservers.yml          # Variáveis para o grupo 'webservers'
-│   └── dbservers.yml           # Variáveis para o grupo 'dbservers'
-│
-├── host_vars/                  # Variáveis específicas para hosts individuais
-│   ├── host1.yml               # Variáveis para 'host1'
-│   └── host2.yml               # Variáveis para 'host2'
-│
 ├── roles/                      # Funções (roles) reutilizáveis
 │   ├── webserver/              # Função para servidores web
 │   └── database/               # Função para servidores de banco de dados
